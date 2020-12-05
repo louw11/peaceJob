@@ -1,0 +1,7 @@
+/*Background images*/
+body{
+  background-image: url(./images/pexels-cottonbro-4752871.jpg);
+    background-size: 135%,55%;
+    background-repeat:   no-repeat;
+    background-position: left center;
+  } 

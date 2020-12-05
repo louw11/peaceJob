@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!--Linking bootstap and my personal cc stylesheet called "peaceJob.css"-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link href="peaceJobIndex.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body id="body" onload="welcome()">
+  
+  <!--Navigation bar-->
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><b>Navbar</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><b>Home</b> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown-menu">
+            <a class="nav-link" href="#"><b>Province</b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>
+              Dropdown</b>
+            </a>
+            <!--Addition of Dropdown items-->
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="peaceJobEducation.html"><b>Eduction</b><ul id="learning">
+                <li>Academic Tutoring</li>
+                <li>Swimming Lessons</li>
+                <li>Acting Lessons</li>
+                <li>Forex</li>
+                <li>Dancing Instructors</li>
+                <li>Dj Instructors</li>
+                <li>Coding Instructors</li>
+                <li>Driving School</li>
+              </ul></a>
+              <a class="dropdown-item" href="entertainment.html"><b>Entertainment</b><ul id="Enteraining">
+                <li>Live Performance</li>
+                <li>DJ</li>
+                <li>Dancers</li>
+              </ul></a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#"><b>Transport</b><ul id="movingThings">
+                <li>Package Couriers</li>
+                <li>Public Transport</li>
+              </ul></a>
+              <a class="dropdown-item" href="#"><b>Fashion & Retail</b><ul id="fashion">
+                <li>Fashion Designers</li>
+                <li>Fabric Manufacturers/Retailers</li>
+                <li>Tailers & Dressmakers</li>
+              </ul></a>
+              <a class="dropdown-item" href="#"><b>Tech Service</b><ul id="techies">
+                <li>Software Engineers</li>
+                <li>Front-End Developers</li>
+                <li>Full Stack Developers</li>
+                <li>App Developers</li>
+                <li>Hardware Repairs</li>
+              </ul></a>
+              
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link Login" href="#"><b>Login</b></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!--Button for Freelancers looking to offer their services-->
+    <button class="buyers1" onmouseover="instruction()" onclick="jobHunt()">Freelancers Looking</button><br>
+    <a href="tutors">Tutors</a>
+    <a href="services">Services</a>
+  
+
+
+
+    <!--Button for businesses or people looking for freelancers-->
+    <button class="buyers2" onmouseover="buyerInstruct()" onclick="buyerOptions()">Freelancers Offering</button><br>
+    <div id="lookingFor" class="freeLanceForDrop">
+      <a href="./peaceJobEducation.html">Education</a>
+      <a href="entertainment.html" class="Entertain">Entertainment</a><br>
+      <a href="peaceJobTransport.html">Transport Services</a><br>
+      <a href="peaceJobCoaching.html">Personal Training</a><br>
+      <a href="peaceJobTechie.html">Tech Services</a>
+      
+    </div>
+
+    <div class="freelancer" style="height:1500px; width:1600px; padding:300px;"></div>
+  </div>
+
+ 
+  <script src="peaceJob.js" type="text/JavaScript"></script>
+</body>
+
+</html>

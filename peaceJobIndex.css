@@ -1,0 +1,18 @@
+/* Spreading a background image */body{
+  background:url(./images/pexels-ola-dapo-3345882.jpg);
+  background-size: 105%,110%;
+                    
+  background-repeat:   no-repeat;
+  background-position: left center;
+  
+}
+
+/*To position the buttons in the center of the page */
+.buyers1,#lookingFor{
+display:inline-block;
+/**other codes**/
+position: relative;
+  top: 50%;
+  left: 50%;
+  float:left;
+}
